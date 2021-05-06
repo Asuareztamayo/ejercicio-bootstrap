@@ -1,0 +1,118 @@
+#ribbon {
+    background-color: rgb(219, 26, 26);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
+}
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+
+}
+
+#birthday {
+    background-color: rgb(219, 26, 26);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#separador {
+    border-radius: 30%;
+    position: relative;
+    bottom: 40px;
+    z-index: -1;
+}
+
+.bg-image {
+    background-size: 10%;
+    height: 12vh; 
+    width: 100%;
+    z-index: -2;
+    position: relative;
+    bottom: 60px;
+}
+
+.manzanero {
+    height: auto;
+}
+.fondo-azul {
+    background: linear-gradient(to bottom, rgb(0, 217, 255), white);
+    position: relative;
+    bottom: 95px;
+    z-index: -3;
+}
+.mas-juegos{
+    margin-top: -130px;
+}
+
+.organizar-cards{
+    display: flex;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.card{
+    margin-right: 20px;
+    border: white;
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.fondo-verde{
+    background-image: url(../img/bg-03.png);
+    margin-top: 20px;
+    border-radius: 15% 15% 0% 0%;
+    display: flex;
+    position: relative;
+}
+
+#hover:hover{
+    width: 110%;
+}
+
+.card-image{
+    border-radius: 10%;
+}
+
+.pueblo{
+    margin-top: -110px;
+}
+
+.fondo-amarillo{
+    background-image: url(../img/bg-04.png);
+    background-color: rgb(228, 227, 174);
+}
+
+.isabelle{
+    max-width: 200px;
+
+}
+
+.amiboo{
+    margin-top: -5%;
+}
+
+.play-isa{
+    margin-top: 20px;
+}
+
+.fondo-naranja{
+    background-image: url(../img/bg-04.png);
+    background-color: rgb(243, 157, 45);
+}
+
+.btn-ayuda{
+    border-radius: 40%;
+    margin-top: 20px;
+    margin-left: 40%;
+}
